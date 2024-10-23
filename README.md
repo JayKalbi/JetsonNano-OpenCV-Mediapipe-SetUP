@@ -14,3 +14,9 @@ cd installSwapfile/
 ```
 
 (*Explaination: The script increases the swap file size to allocate more virtual memory, improving system stability when handling memory-intensive processes.*)
+
+Reboot your PC: 
+```bash
+sudo reboot
+```
+After rebooting check swap space  by using this command:   `free -h`
