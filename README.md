@@ -57,8 +57,8 @@ Numpy is a core library for numerical computation. To enable handling of large d
 ```bash
 sudo env H5PY_SETUP_REQUIRES=0 pip3 install -U h5py==3.1.0
 ```
-(*Explanation: The `h5py` library is required for handling HDF5 files, and this command ensures compatibility with Numpy 1.19.4, which works well on Jetson Nano.*)
-(*If error shows for `h5py` and if you don't require the HDF5 then ignore it and ensure that other all dependencies are installed except related to HDF5.*)
+(*Explanation: The `h5py` library is required for handling HDF5 files, and this command ensures compatibility with Numpy 1.19.4, which works well on Jetson Nano.*) <br>
+(*If error shows for `h5py` and if you don't require the HDF5 then ignore it and ensure that other all dependencies are installed except related to HDF5.*) <br>
 (*Usually it takes around 30 minutes to complete.*)
 
 ## Step 6: Install OpenCV
@@ -105,8 +105,8 @@ sudo apt install curl
 sudo pip3 install numpy-1.19.4-cp36-none-manylinux2014_aarch64.whl
 sudo pip3 install mediapipe-0.8.5_cuda102-cp36-none-linux_aarch64.whl
 ```
-(*Explanation: This downloads MediaPipe binaries optimized for the Jetson Nano’s ARM architecture, ensuring the hand gesture recognition pipeline runs efficiently on the device.*)
-(*After cloning `mediapipe-bin` if doesn't have direct `numpy119x` folder then it will have `zip` or `tar` file which you can unzip using `unzip filename`, you will find `/mediapipe-0.8.5_cuda102-cp36-cp36m-linux_aarch64_numpy119x_jetsonnano_L4T32.5.1_download.sh` file there.*)
+(*Explanation: This downloads MediaPipe binaries optimized for the Jetson Nano’s ARM architecture, ensuring the hand gesture recognition pipeline runs efficiently on the device.<br>
+After cloning `mediapipe-bin` if it doesn't have direct `numpy119x` folder then it will have `zip` or `tar` file which you can unzip using `unzip filename`, you will find `mediapipe-0.8.5_cuda102-cp36-cp36m-linux_aarch64_numpy119x_jetsonnano_L4T32.5.1_download.sh` file there.*)
 
 ## Step 10: Install Dataclasses (for Python 3.6)
 
