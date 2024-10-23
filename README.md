@@ -13,5 +13,4 @@ cd installSwapfile/
 ./installSwapfile.sh
 ```
 
-(*Explaination:*)The script increases the swap file size to allocate more virtual memory, improving system stability when handling memory-intensive processes.
-
+(*Explaination: The script increases the swap file size to allocate more virtual memory, improving system stability when handling memory-intensive processes.*)
